@@ -10,6 +10,9 @@
 
 <h1>Contact</h1>
 
+tk. for now if you know my address just come over and ring the bell i guess!!
+
+<!--
 This starter was made by Josh Collinsworth. You can <a rel="external" href="https://joshcollinsworth.com/contact">get in touch with Josh here</a>.
 
 If you're using this starter for your own site, feel free to delete this page, or replace it with a contact page of your own. (I'm a big fan of <a href="https://docs.netlify.com/forms/setup/">Netlify forms</a>, personally.)
@@ -53,3 +56,4 @@ If you're using this starter for your own site, feel free to delete this page, o
 
 	<input type="submit" value="Do nothing!">
 </form>
+-->
