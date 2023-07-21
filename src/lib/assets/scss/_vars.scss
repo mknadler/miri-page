@@ -15,13 +15,31 @@ $xxxlMin: 122.5rem;
 
 :root {
 	// Colors
-	--accent: #E63946;
+	--accent: #C2366E;
 	--background: #FAF9F8;
 	--lightAccent: #A8DAE5;
 	--lighterAccent: #E6E8E4;
 	--dark: #457B9D;
 	--darker: #1D3557;
 	--slate: #2F3948;
+
+	--darkgray: #222;
+	--medpink: #C2366E;
+	--darkpurp: #0B0019;
+	--text: var(--lightestgray);
+	--lightestgray: #EDEDED;
+	// header styles
+	--header-bg: var(--darkpurp);
+	--header-links: var(--lightestgray);
+	--header-text: var(--lightestgray);
+	--header-accent: var(--medpink);
+	--header-accent-alt: var(--medpink);
+	// footer styles
+	--footer-bg: var(--darkpurp);
+	--footer-accent: var(--medpink);
+	--underline: var(--medpink);
+	--callout-bg: rgb(37, 0, 83);
+	--post-footer-link-bg: rgb(202, 164, 209);
 
 	--white: #fff;
 	--black: #152030;
@@ -35,8 +53,8 @@ $xxxlMin: 122.5rem;
 	 * These are broken out into two separate variables from a previous iteration. I left
 	 * it in because it's nice to be able to split out the heading and body fonts.
 	 */
-	--accentFont: 'Libre Franklin', Georgia, Times, serif; 
-	--primaryFont: 'Libre Franklin', sans-serif;
+	--accentFont: 'Texturina', Georgia, Times, serif; 
+	--primaryFont: 'Space Mono', monospace;
 	--codeFont: 'Fira Code', monospace;
 
 	// Base styles

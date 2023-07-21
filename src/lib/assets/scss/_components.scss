@@ -1,7 +1,7 @@
 @use 'vars';
 
 .callout {
-	background: var(--lightAccent);
+	background: var(--callout-bg);
 	padding: 2rem 1rem;
   width: calc(100% + 2rem);
 	max-width: unset;
