@@ -5,11 +5,11 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/ 
 
-export const siteTitle = 'My Awesome Blog'
+export const siteTitle = 'miri makes things'
 export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
-export const siteURL = 'example.com'
-export const siteLink = 'https://github.com/josh-collinsworth/sveltekit-blog-starter'
-export const siteAuthor = '- find and change this text in src/lib/config.js'
+export const siteURL = 'miri.page'
+export const siteLink = 'miri.page'
+export const siteAuthor = 'Miriam Nadler'
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 10
