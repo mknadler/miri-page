@@ -13,6 +13,7 @@ export const siteAuthor = 'Miriam Nadler'
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 10
+export const cardsPerPage = 20
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
@@ -25,5 +26,9 @@ export const navItems = [
 	}, {
 		title: 'Contact',
 		route: '/contact' 
-	},
+	}, {
+		title: 'Critical Hit',
+		route: '/criticalhit'
+
+	}
 ]

@@ -59,3 +59,36 @@
 
 	}
 }
+
+.cards-list {
+	list-style: none;
+	li {
+		display: flex;
+		margin-bottom: 1rem;
+	}
+	.cards-list__info {
+		flex-grow: 1;
+		padding: 0 1rem 1rem 1rem;
+	}
+	.cards-list__name {
+		margin: 0;
+		line-height: 1;
+	}
+	.cards-list__card {
+		width: 200px;
+		flex-basis: 150px;
+		flex-grow: 0;
+		flex-shrink: 0;
+		img {
+			width: 100%;
+		}
+	}
+	@media (max-width: vars.$xsMax) {
+		li {
+			// flex-direction: column;
+		}
+		.cards-list__card {
+			flex-basis: 50px;
+		}
+	}
+}
