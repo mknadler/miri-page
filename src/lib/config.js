@@ -26,9 +26,5 @@ export const navItems = [
 	}, {
 		title: 'Contact',
 		route: '/contact' 
-	}, {
-		title: 'Critical Hit',
-		route: '/criticalhit'
-
 	}
 ]
