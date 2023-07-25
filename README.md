@@ -1,4 +1,4 @@
-# miri.page
+# [miri.page](https://miri.page)
 
 Personal portfolio / blog.
 
