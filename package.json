@@ -24,5 +24,8 @@
     "svelte-preprocess": "^5.0.0",
     "vite": "^4.0.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "two.js": "^0.8.10"
+  }
 }

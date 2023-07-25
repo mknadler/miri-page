@@ -1,12 +1,17 @@
 <script>
 	import { siteTitle } from '$lib/config';
+	import Nervous from '$lib/components/Nervous.svelte'
 
 	export let data;
+
+
 </script>
 
 <svelte:head>
 	<title>{siteTitle}</title>
 </svelte:head>
+
+<Nervous />
 
 <p>My name is <strong>miri</strong>am nadler<strong>.</strong> Welcome to my web<strong>page</strong>.</p>
 
