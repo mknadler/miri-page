@@ -15,9 +15,9 @@
 		Skip to main content
 	</a>
 	
-	<a href="/" class="site-title">
+	<h1 class="site-title"><a href="/" class="site-title">
 		{siteTitle}
-	</a>
+	</a></h1>
 	
 	<HamburgerMenuButton />
 	<MainNav />

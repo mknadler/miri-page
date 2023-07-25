@@ -8,7 +8,7 @@
 </svelte:head>
 
 
-<h1>Contact</h1>
+<h2>Contact</h2>
 
 <p>I will be adding a contact form here in the future. For now, please email me at miriam.k.nadler+page@gmail.com.</p> 
 

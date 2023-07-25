@@ -43,12 +43,12 @@ const { PostContent } = data
 		height={coverHeight}
 	/>
 
-	<h1>{ title }</h1>
+	<h2>{ title }</h2>
 	
 	<div class="meta">
 		<b>Published:</b> {date}
 		<br>
-		<b>Updated:</b> {updated}
+		{#if updated}<b>Updated:</b> {updated}{/if}
 	</div>
 
 	<svelte:component this={PostContent} />

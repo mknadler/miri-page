@@ -15,9 +15,6 @@
 
 <p>My name is <strong>miri</strong>am nadler<strong>.</strong> Welcome to my web<strong>page</strong>.</p>
 
-<p>I make things with my hands, like books and boxes. I make things with code, like websites and animations and other tchotchkes. The things i make are usually mostly visual in nature because my brain is happiest when it's looking at something complicated.</p>
+<p>I make <a href="/work">things</a> with my hands, like books and boxes. I make things with code, like websites and animations and other tchotchkes. The things i make are usually mostly visual in nature because my brain is happiest when it's looking at something complicated.</p>
 
-
-
-<!-- This is the README.md file in the root of the repo. It serves double duty as the homepage's content. If you'd rather use your own HTML and/or Svelte, you can delete/modify everything in this file. -->
-<!-- <svelte:component this={data.ReadMe} /> -->
+<p>You can check out the <a href="https://github.com/mknadler/miri-page">GitHub repo</a> for this site, if you'd like.  I'm also currently looking <a href="/contact">for work</a>.</p>
