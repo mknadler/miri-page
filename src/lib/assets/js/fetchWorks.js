@@ -30,7 +30,9 @@ const fetchWorks = async ({ offset = 0, limit = workPerPage, category = '' } = {
 		name: work.name,
 		url: work.url,
 		num: work.num,
-		image: work.image
+		image: work.image,
+		alt: work.imageAlt,
+		desc: work.desc
 	}))
 
 	return {

@@ -10,7 +10,7 @@
 
 <h1>Contact</h1>
 
-tk. for now if you know my address just come over and ring the bell i guess!!
+<p>I will be adding a contact form here in the future. For now, please email me at miriam.k.nadler+page@gmail.com.</p> 
 
 <!--
 This starter was made by Josh Collinsworth. You can <a rel="external" href="https://joshcollinsworth.com/contact">get in touch with Josh here</a>.

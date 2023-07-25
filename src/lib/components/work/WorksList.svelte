@@ -1,30 +1,19 @@
 <script>
 	export let works = []
+	console.log("Works", works);
 </script>
 
+<!-- name, url, num, image -->
 
-<ul class="cards-list">
+<ul class="works-list">
 	{#each works as work}
-		<li>
-			<div class="cards-list__card">
-				<img src="{work.image}"/>
+		<li class="works-list__work">
+			<div class="works-list__image">
+				<a href="{work.url}" target="_blank"><img alt="{work.alt}" src="{work.image}"/></a>
 			</div>
-			<div class="cards-list__info">
-				<h2 class="cards-list__name">{work.name}</h2>
-				<p class="cards-list__rule">{work.rule}</p>
-				<p class="cards-list__time">
-					<strong>Cast:</strong>
-					{#if work.castTime == 'before-round'}
-						Before round begins
-					{:else if work.castTime == 'before-selection'}
-						Before group selection
-					{:else if work.castTime == 'end-of-game'}
-						At end of game
-					{:else if work.castTime == 'during-round'}
-						During round
-					{:else}
-						ewwor
-					{/if}
+			<div class="works-list__info">
+				<h3><a href="{work.url}">{work.name}</a></h3>
+				<span>{work.desc}</span>
 			</div>
 		</li>
 	{/each}

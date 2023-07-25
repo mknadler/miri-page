@@ -18,17 +18,14 @@ export const workPerPage = 20
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
 	{
+		title: 'Things',
+		route: '/work'
+	},
+	{
 		title: 'Blog',
 		route: '/blog'
 	}, {
-		title: 'About',
-		route: '/about'
-	}, {
 		title: 'Contact',
 		route: '/contact' 
-	}, {
-		title: 'Work',
-		route: '/work'
-
-	}
+	} 
 ]
