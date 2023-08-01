@@ -1,15 +1,18 @@
+$form-border: #7D8CC4;
+
 form {
 	margin: 2rem 0;
 }
 
 button,
+textarea,
 input[type=submit] {
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
-	background: var(--darker);
+	background: var(--darkpurp);
 	color: var(--paper);
 	font-weight: bold;
-	border: 2px solid var(--darker);
+	border: 2px solid var(--darkpurp);
 	border-radius: 0.125rem;
 	background: var(--darker);
 	margin: 2rem 0 0;
@@ -20,6 +23,13 @@ input[type=submit] {
 	&:hover,
 	&:focus {
 		background: var(--accent);
+	}
+}
+
+textarea {
+	&:hover,
+	&:focus {
+		background: transparent;
 	}
 }
 
@@ -34,11 +44,12 @@ fieldset {
 	border: 0;
 }
 
-input {
+input,
+textarea {
 	display: block;
 	font-size: inherit;
 	padding: 0.5rem;
-	border: 1px solid var(--darker);
+	border: 1px solid #7D8CC4;
 	border-radius: 0.125rem;
 	width: 100%;
 	accent-color: var(--accent);
@@ -53,6 +64,15 @@ input {
 			font-weight: normal;
 		}
 	}
+
+	&:focus {
+		outline-width: 1px;
+		outline-offset: 1px;
+	}
+}
+
+button[type="submit"] {
+	cursor: pointer;
 }
 
 .form-section,
