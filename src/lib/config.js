@@ -6,7 +6,7 @@
  **/ 
 
 export const siteTitle = 'miri makes things'
-export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
+export const siteDescription = 'Personal portfolio + blog of Miriam Nadler'
 export const siteURL = 'miri.page'
 export const siteLink = 'miri.page'
 export const siteAuthor = 'Miriam Nadler'
