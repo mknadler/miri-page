@@ -11,15 +11,14 @@
 
 
 <header>
-	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
-		Skip to main content
-	</a>
-	
-	<h1 class="site-title"><a href="/" class="site-title">
-		{siteTitle}
-	</a></h1>
-	
-	<HamburgerMenuButton />
-	<MainNav />
+		<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
+			Skip to main content
+		</a>
+		
+		<h1 class="site-title"><a href="/" class="site-title">
+			{siteTitle}
+		</a></h1>
+				<MainNav />
+		<HamburgerMenuButton />
 
 </header>
