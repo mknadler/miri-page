@@ -39,11 +39,16 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 2.5rem 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 
 	@media (min-width: vars.$smMin) {
 		justify-content: center;
 		flex-wrap: wrap;
 		height: auto;
+		padding: 2.5rem 2rem;
 	}
 
 	a {
@@ -173,6 +178,11 @@ header {
 			}
 		}
 	}
+}
+
+header .header__inner {
+	display: flex;
+	
 }
 
 footer {
