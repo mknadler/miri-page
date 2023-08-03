@@ -1,7 +1,6 @@
 <script>
 	import { siteTitle } from '$lib/config';
 	import Nervous from '$lib/components/Nervous.svelte'
-	import Paper from '$lib/components/Paper.svelte'
 
 	export let data;
 
@@ -11,9 +10,6 @@
 <svelte:head>
 	<title>{siteTitle}</title>
 </svelte:head>
-
-<Paper />
-
 
 <Nervous />
 
