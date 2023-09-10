@@ -10,6 +10,5 @@ export const GET = async () => {
   }
 
   const { works } = await fetchWorks(options)
-  console.log("+server cards.json works", works )
   return json(works)
 }

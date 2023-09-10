@@ -2,8 +2,6 @@
 	import Two from "two.js";
 	import { onMount } from 'svelte';
 
-	console.log("Two is", Two);
-
 	onMount(() => {
 
 		// // Changeable stuff
