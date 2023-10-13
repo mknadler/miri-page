@@ -27,7 +27,7 @@ const fetchPins = async ({ offset = 0, limit = 999, category = '' } = {}) => {
 		machine: pin.machine,
 		division: pin.division,
 		rulesheet: pin.rulesheet,
-		pinpal: pin.pinpall,
+		pinpal: pin.pinpal,
 		soldmy: pin.soldmy,
 		pintips: pin.pintips,
 		body: pin.html
