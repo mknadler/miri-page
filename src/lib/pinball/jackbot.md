@@ -2,9 +2,7 @@
 machine: "Jack*bot"
 division: "Women"
 rulesheet: ""
-pinpal: ""
+pinpal: "https://www.colorado-pinball.com/pinpals/jackbot/"
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/opdb/GRKOX-MLyrW"
 ---
-
-Test test test.

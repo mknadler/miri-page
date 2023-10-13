@@ -2,9 +2,7 @@
 machine: "Fish Tales"
 division: "Main"
 rulesheet: ""
-pinpal: ""
+pinpal: "https://www.colorado-pinball.com/pinpals/fish-tales/"
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/opdb/G5Wxd-MLxl3"
 ---
-
-Test test test.

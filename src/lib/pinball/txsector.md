@@ -4,7 +4,5 @@ division: "Classics"
 rulesheet: ""
 pinpal: ""
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/opdb/GRLzj-MJPYK"
 ---
-
-Test test test.

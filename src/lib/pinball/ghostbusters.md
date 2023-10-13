@@ -4,7 +4,5 @@ division: "Women"
 rulesheet: ""
 pinpal: ""
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/opdb/GR9Nr-Mz2dY"
 ---
-
-Test test test.

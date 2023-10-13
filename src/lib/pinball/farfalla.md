@@ -1,10 +1,8 @@
 ---
 machine: "Farfalla"
 division: "Classics"
-rulesheet: ""
+rulesheet: "https://gamefaqs.gamespot.com/pinball/916520-farfalla/faqs/1443"
 pinpal: ""
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/games/226"
 ---
-
-Test test test.

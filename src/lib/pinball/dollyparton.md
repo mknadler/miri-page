@@ -1,10 +1,10 @@
 ---
 machine: "Dolly Parton"
 division: "Women"
-rulesheet: ""
-pinpal: ""
+rulesheet: "https://www.jeff-z.com/pinball/dp/rules/rules.html"
+pinpal: "https://www.colorado-pinball.com/pinpals/dolly-parton/"
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/games/471"
 ---
 
-Test test test.
+Generally: Focus on collecting letters to maximize bonus (carries over ball to ball), then drop targets (multiply bonus)

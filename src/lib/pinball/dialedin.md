@@ -1,10 +1,8 @@
 ---
 machine: "Dialed In"
 division: "Main"
-rulesheet: ""
+rulesheet: "http://tiltforums.com/t/dialed-in-rulesheet-wiki/2855"
 pinpal: ""
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/opdb/G4X2l-MYepl"
 ---
-
-Test test test.

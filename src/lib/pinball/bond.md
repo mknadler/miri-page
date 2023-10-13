@@ -1,10 +1,8 @@
 ---
 machine: "James Bond 007 Pro"
 division: "Main"
-rulesheet: ""
+rulesheet: "http://tiltforums.com/t/james-bond-007-rulesheet/7893"
 pinpal: ""
 soldmy: ""
-pintips: ""
+pintips: "https://pintips.net/games/2394"
 ---
-
-Test test test.

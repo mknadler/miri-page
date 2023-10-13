@@ -26,6 +26,10 @@ const fetchPins = async ({ offset = 0, limit = 999, category = '' } = {}) => {
 	sortedPins = sortedPins.map(pin => ({
 		machine: pin.machine,
 		division: pin.division,
+		rulesheet: pin.rulesheet,
+		pinpal: pin.pinpall,
+		soldmy: pin.soldmy,
+		pintips: pin.pintips,
 		body: pin.html
 	}))
 
