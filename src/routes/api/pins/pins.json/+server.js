@@ -10,5 +10,6 @@ export const GET = async () => {
   }
 
   const { pins } = await fetchPins(options)
+
   return json(pins)
 }

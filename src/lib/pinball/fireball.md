@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "Fireball"
 division: "Main"
 rulesheet: ""
 pinpal: ""

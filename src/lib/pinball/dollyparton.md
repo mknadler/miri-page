@@ -1,6 +1,6 @@
 ---
-machine: "Banzai Run"
-division: "Main"
+machine: "Dolly Parton"
+division: "Women"
 rulesheet: ""
 pinpal: ""
 soldmy: ""

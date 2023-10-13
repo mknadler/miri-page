@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "Attack From Mars"
 division: "Main"
 rulesheet: ""
 pinpal: ""

@@ -2,9 +2,12 @@ const fetchPins = async ({ offset = 0, limit = 999, category = '' } = {}) => {
 
 	const pins = await Promise.all(
 		Object.entries(import.meta.glob('/src/lib/pinball/*.md')).map(async ([path, resolver]) => {
-			const { metadata } = await resolver()
+			const all = await resolver();
+			const metadata = all.metadata;
+			const html = all.default.render().html;
 			const slug = path.split('/').pop().slice(0, -3)
-			return { ...metadata, slug }
+			console.log('metadata', metadata, path);
+			return { ...metadata, slug, html }
 		})
 	)
 
@@ -17,10 +20,13 @@ const fetchPins = async ({ offset = 0, limit = 999, category = '' } = {}) => {
 		}
 		return 0;
 	})
+
+	console.log("Sorted is", sortedPins);
 	
 	sortedPins = sortedPins.map(pin => ({
 		machine: pin.machine,
-		division: pin.division
+		division: pin.division,
+		body: pin.html
 	}))
 
 	return {

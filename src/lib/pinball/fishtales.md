@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "Fish Tales"
 division: "Main"
 rulesheet: ""
 pinpal: ""

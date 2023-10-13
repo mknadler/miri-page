@@ -1,6 +1,6 @@
 ---
-machine: "Banzai Run"
-division: "Main"
+machine: "Theatre of Magic"
+division: "Women"
 rulesheet: ""
 pinpal: ""
 soldmy: ""

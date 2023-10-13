@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "Led Zeppelin LE"
 division: "Main"
 rulesheet: ""
 pinpal: ""

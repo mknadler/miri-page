@@ -1,6 +1,6 @@
 ---
-machine: "Banzai Run"
-division: "Main"
+machine: "Ghostbusters"
+division: "Women"
 rulesheet: ""
 pinpal: ""
 soldmy: ""

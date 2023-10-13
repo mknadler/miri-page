@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "The Walking Dead Pro"
 division: "Main"
 rulesheet: ""
 pinpal: ""

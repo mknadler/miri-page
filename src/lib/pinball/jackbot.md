@@ -1,6 +1,6 @@
 ---
-machine: "Banzai Run"
-division: "Main"
+machine: "Jack*bot"
+division: "Women"
 rulesheet: ""
 pinpal: ""
 soldmy: ""

@@ -1,6 +1,6 @@
 ---
-machine: "Banzai Run"
-division: "Main"
+machine: "Meteor"
+division: "Classics"
 rulesheet: ""
 pinpal: ""
 soldmy: ""

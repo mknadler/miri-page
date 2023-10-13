@@ -1,5 +1,5 @@
 ---
-machine: "Banzai Run"
+machine: "Dialed In"
 division: "Main"
 rulesheet: ""
 pinpal: ""
