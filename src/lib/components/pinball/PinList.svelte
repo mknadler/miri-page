@@ -45,19 +45,21 @@
 	.pins-list__title {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
 		background: rgba(#C2366E, .2);
 		padding: 0 .25rem;
+		height: 60px;
 	}
 
 	.pins-list__title__div {
 		padding-right: .5rem;
+		line-height: 60px;
 	}
 
 	.pins-list__title__name {
 		font-size: 32px;
 		font-family: var(--accentFont);
 		padding-left: .5rem;
+		line-height: 52px;
 	}
 
 
@@ -70,6 +72,7 @@
 
 	.pins-list__links {
 		padding: 1rem;
+		overflow-wrap: break-word;
 	}
 
 	.pins-list__links span {
@@ -79,11 +82,13 @@
 	.pins-list__body {
 		padding: 1rem;
 		font-family: "Space Grotesk";
+		overflow-wrap: break-word;
 	}
 
 	@media (max-width: 600px) {
 		.pins-list__title__name {
 			font-size: 24px;
+			line-height: 56px;
 		}
 	}
 </style>
