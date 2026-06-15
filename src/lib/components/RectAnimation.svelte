@@ -2,8 +2,8 @@
 	import { animate } from '$lib/scripts/animate.ts';
 	import gsap from 'gsap';
 	import MorphSVGPlugin from 'gsap/MorphSVGPlugin';
-	import { ScrollTrigger } from 'gsap/ScrollTrigger';
-	import { ScrollSmoother } from 'gsap/ScrollSmoother';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	import { ScrollSmoother } from 'gsap/dist/ScrollSmoother';
 	import { onMount } from 'svelte';
 	import { throttle } from '$lib/scripts/utils';
 
