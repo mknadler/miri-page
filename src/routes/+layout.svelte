@@ -1,62 +1,28 @@
-<!-- This is the global layout file; it "wraps" every page on the site. (Or more accurately: is the parent component to every page component on the site.) -->
-<script>
-	import '$lib/assets/scss/global.scss'
-	import Header from '$lib/components/Header.svelte'
-	import Footer from '$lib/components/Footer.svelte'
-	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
-	import { navItems } from '$lib/config'
-	import { preloadCode } from '$app/navigation'
-	import { onMount } from 'svelte'
-	import { fade } from 'svelte/transition'
-	import { dev } from '$app/environment';
-	import { inject } from '@vercel/analytics';
-	 
-	inject({ mode: dev ? 'development' : 'production' });
+<script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
+	import '$lib/styles/style.css';
 
-	
-	export let data
-
-	const transitionIn = { delay: 150, duration: 150 }
-	const transitionOut = { duration: 100 }
-
-  export const prerender = true
-	
-	/**
-	 * Updates the global store with the current path. (Used for highlighting 
-	 * the current page in the nav, but could be useful for other purposes.)
-	 **/
-	$: currentPage.set(data.path)
-  
-	/**
-	 * This pre-fetches all top-level routes on the site in the background for faster loading.
-	 * https://kit.svelte.dev/docs/modules#$app-navigation-preloaddata
-	 * 
-	 * Any route added in src/lib/config.js will be preloaded automatically. You can add your
-	 * own preloadData() calls here, too.
-	 **/
-
-  onMount(() => {
-    const navRoutes = navItems.map(item => item.route)
-    preloadCode(...navRoutes)
-	})
+	let { children } = $props();
 </script>
 
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap" rel="stylesheet">
+</svelte:head>
 
-<!-- 
-	The below markup is used on every page in the site. The <slot> is where the page's
-	actual contents will show up.
--->
-<div class="layout" class:open={$isMenuOpen}>
-	<Header />
-	{#key data.path}
-		<main
-			id="main"
-			tabindex="-1"
-			in:fade={transitionIn}
-			out:fade={transitionOut}
-		>
-			<slot />
-		</main>
-	{/key}
-	<Footer />
-</div>
+<main>
+	{@render children()}
+</main>
+
+<style>
+	main {
+		padding: 1rem;
+		height: 100%;
+		position: relative;
+		background: black;
+		outline: 5px solid transparent;
+		color: white;
+	}
+</style>
