@@ -1,7 +1,7 @@
 <script>
 	import { animate } from '$lib/scripts/animate.ts';
-	import gsap from 'gsap';
-	import MorphSVGPlugin from 'gsap/MorphSVGPlugin';
+	import { gsap } from 'gsap/dist/gsap';
+	import MorphSVGPlugin from 'gsap/dist/MorphSVGPlugin';
 	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { ScrollSmoother } from 'gsap/dist/ScrollSmoother';
 	import { onMount } from 'svelte';

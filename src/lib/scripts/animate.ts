@@ -1,5 +1,5 @@
 // animate.ts
-import { gsap } from 'gsap';
+import { gsap } from 'gsap/dist/gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 // Register the ScrollTrigger plugin with GSAP
