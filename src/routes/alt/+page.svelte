@@ -67,24 +67,15 @@
 		/>
 	</div>
 <style>
-	p {
-		font-size: 18px;
-		margin-top: 8px;
-	}
-
-
 	.shader-container {
 		height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 1;
-		opacity: .9;
 		min-height: 500px;
-	}
-	.shader-container {
-		opacity: .25;
-		transition: opacity 500ms;
+		opacity: .15;
+		transition: opacity 1000ms;
 		pointer-events: none;
 		&:before {
 			content: '';
@@ -99,15 +90,8 @@
 			z-index: 2;
 		}
 	}
+
 	.shader-container--hidden {
 		opacity: 0;
-	}
-
-	
-
-	
-
-	sup {
-		color: #ff0033ff;
 	}
 </style>

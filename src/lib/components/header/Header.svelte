@@ -13,6 +13,9 @@
 		transition: opacity 50ms;
 		font-family: "Iosevka Charon Mono";
 		z-index: 2;
+		@media (max-width: 40rem) {
+			padding: 2rem 0;
+		}
 	}
 	h1 {
 		font-size: 60px;
@@ -53,6 +56,9 @@
 		corner-shape: bevel;
 		max-width: 320px;
 		position: relative;
+		@media (max-width: 40rem) {
+			margin: 0;
+		}
 		p {
 			text-wrap-style: balance;
 			color: currentColor;
@@ -78,10 +84,6 @@
       filter: drop-shadow(2px 4px 5px #ddd) blur(1px);
       /* background-blend-mode: multiply; */
 		}
-	}
-
-	:global(header:has(~ .shader-container--hidden)) {
-		opacity: .1;
 	}
 </style>
 

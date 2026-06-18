@@ -2,11 +2,12 @@
 <div class="blurb">
 	<p>I make websites for a living. I prioritize the experience of the people who use the things I make. I consider myself a generalist, but I have a deep love for wrangling css at scale, accessibility, and animation. Most of my job titles have had the word 'frontend' in them somewhere.</p>
 	<p>Outside of my web practice, I also do book arts (exploring the interaction between form and function via novel book structures) and compete in pinball (2025 Women's North American Pinball Champion).</p>
-	<p>I'm currently available for work. <a href="mailto:miriam.k.nadler@gmail.com">Drop a line<span class="linkdots" role="presentation">
+	<p>I'm currently available for work.</p>
+	<p><a href="mailto:miriam.k.nadler@gmail.com">Drop a line.<span class="linkdots" role="presentation">
 		{#each {length: 30}, index}
 			<span class="linkdot" data-index={index}></span>
 		{/each}
-	</span></a>.</p>
+	</span></a></p>
 </div>
 
 <style>
@@ -25,6 +26,7 @@
 		corner-shape: bevel;
 		max-width: 320px;
 		position: relative;
+
 		p {
 			text-wrap-style: balance;
 			color: currentColor;
@@ -59,6 +61,13 @@
 		position: relative;
 		z-index: 2;
 		color: #bbb;
+		@media (max-width: 60rem) {
+			max-width: 30rem;
+		}
+		@media (max-width: 34rem) {
+			max-width: 40rem;
+			margin-left: 0;
+		}
 		&:after {
       content: '';
       display: block;

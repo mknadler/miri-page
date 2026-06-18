@@ -98,7 +98,7 @@
 	}
 
 	header:has(~ .shader-container--hidden) {
-		opacity: .1;
+		opacity: 1;
 	}
 	.shader-container {
 		height: 100%;
@@ -110,7 +110,7 @@
 		min-height: 500px;
 	}
 	.shader-container {
-		opacity: .25;
+		opacity: .0;
 		transition: opacity 500ms;
 		pointer-events: none;
 	}

@@ -15,10 +15,15 @@
 	let y = $state();
 
 	const handlePointer = throttle((event) => {
-		//console.log("Event is", event);
 		x = event.x;
 		y = event.y;
 	}, 100);
+
+	const handleTouchmove = throttle((event) => {
+		event.preventDefault();
+		x = event.pageX;
+		y = event.pageY;
+	}, 100)
 
 	onMount(() => {
 		gsap.registerPlugin(MorphSVGPlugin, ScrollTrigger, ScrollSmoother);
@@ -94,7 +99,7 @@ $effect(() => {
 
 </script>
 
-<svelte:window onpointermove={handlePointer} />
+<svelte:window onpointermove={handlePointer} ontouchmove={handleTouchmove} />
 
 
 <div class="container" bind:this={containerEl}>
@@ -140,10 +145,6 @@ $effect(() => {
 -->
 
 <style>
-	section {
-		position: sticky;
-		top: 0;
-	}
 	.container {
 		width: calc(24px * 5 + 16px);
 		/*overflow: hidden;*/
@@ -161,6 +162,12 @@ $effect(() => {
 		padding: 8px;
 		grid-template-columns: repeat(5, 24px);
 		grid-template-rows: repeat(5, 24px);
+		@media (max-width: 50rem) {
+			right: 2rem;
+		}
+		@media (max-width: 34rem) {
+			display: none;
+		}
 		svg {
 			width: 24px;
 			height: 24px;
