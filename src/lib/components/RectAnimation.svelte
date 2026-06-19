@@ -35,7 +35,7 @@
 				trigger: containerEl,
 				start: 'top top+=48',
 				pin: true,
-				end: 'bottom+=150',
+				end: 'bottom+=400',
 				scrub: 1,
 				toggleActions: 'play none none reverse'
 			}
@@ -165,7 +165,7 @@ $effect(() => {
 		@media (max-width: 50rem) {
 			right: 2rem;
 		}
-		@media (max-width: 34rem) {
+		@media (max-width: 42.5rem) {
 			display: none;
 		}
 		svg {

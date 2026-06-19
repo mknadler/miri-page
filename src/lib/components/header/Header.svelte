@@ -16,6 +16,9 @@
 		@media (max-width: 40rem) {
 			padding: 2rem 0;
 		}
+		@media (max-width: 60rem) {
+			padding: 2rem 0;
+		}
 	}
 	h1 {
 		font-size: 60px;
@@ -58,6 +61,9 @@
 		position: relative;
 		@media (max-width: 40rem) {
 			margin: 0;
+		}
+		@media (max-width: 60rem) {
+			margin-left: 0;
 		}
 		p {
 			text-wrap-style: balance;

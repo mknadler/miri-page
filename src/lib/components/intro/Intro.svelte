@@ -63,6 +63,7 @@
 		color: #bbb;
 		@media (max-width: 60rem) {
 			max-width: 30rem;
+			margin-left: 0;
 		}
 		@media (max-width: 34rem) {
 			max-width: 40rem;

@@ -34,7 +34,7 @@ const works = [
 {
 	title: "Dead Friend: A Game of Necromancy",
 	role: "Illustration, Graphic Design",
-	blurb: "All graphic design (interior illustrations, typography, layout) for an indie storytelling game. Basically, I handled all of the visual work besides the cover illustration. Wandering into a neighborhood game store one day and seeing my own work on the shelves was one of the most pleasant surprises of my life.",
+	blurb: "All graphic design (interior illustrations, typography, layout) for an indie storytelling game. I handled all of the visual work besides the cover illustration. Game nominated for the 2019 Indie Game Developer Network's \"Most Innovative\" award.",
 	url: "https://en.wikipedia.org/wiki/Dead_Friend:_A_Game_of_Necromancy",
 	img_url: "deadfriend2.png"
 }
@@ -110,7 +110,7 @@ const comingSoon = [
 
 
 	.cards {
-		margin-top: 8rem;
+		margin-top: 4rem;
 		padding-left: 5.5rem;
 		padding-right: 4rem;
 		background: black;
@@ -199,6 +199,238 @@ const comingSoon = [
 		:global(.cards-grid .card:nth-child(11)) {
 				grid-row: 96 / span 8;
 				grid-column: 12 / span 8;
+		}
+	}
+
+	@media (min-width: 40rem) {
+		.cards {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		.cards-grid {
+			grid-auto-columns: 1.25rem;
+			grid-auto-rows: 1.25rem;
+			grid-template-columns: unset;
+			grid-template-rows: unset;
+			gap: unset;
+		}
+		:global(.cards-grid .card:nth-child(1)) {
+				grid-row: 2 / span 14;
+				grid-column: 1 / span 8;
+		}
+		:global(.cards-grid .card:nth-child(2)) {
+				grid-row: 1 / span 14;
+				grid-column: 11 / span 12;
+		}
+		:global(.cards-grid .card:nth-child(3)) {
+				grid-row: 3 / span 14;
+				grid-column: 25 / span 5;
+		}
+		:global(.cards-grid .card:nth-child(4)) {
+				grid-row: 21 / span 24;
+				grid-column: 1 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(5)) {
+				grid-row: 20 / span 14;
+				grid-column: 17 / span 10;
+		}	
+		:global(.cards-grid .card:nth-child(6)) {
+				grid-row: 37 / span 24;
+				grid-column: 1 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(7)) {
+				grid-row: 34 / span 20;
+				grid-column: 17 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(8)) {
+				grid-row: 54 / span 14;
+				grid-column: 1 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(9)) {
+				grid-row: 74 / span 24;
+				grid-column: 1 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(10)) {
+				grid-row: 74 / span 8;
+				grid-column: 17 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(11)) {
+				grid-row: 91 / span 8;
+				grid-column: 1 / span 8;
+		}
+	}
+
+	@media (min-width: 45rem) {
+		.cards {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		.cards-grid {
+			grid-auto-columns: 1.25rem;
+			grid-auto-rows: 1.25rem;
+			grid-template-columns: unset;
+			grid-template-rows: unset;
+			gap: unset;
+		}
+		:global(.cards-grid .card:nth-child(1)) {
+				grid-row: 2 / span 14;
+				grid-column: 1 / span 8;
+		}
+		:global(.cards-grid .card:nth-child(2)) {
+				grid-row: 1 / span 14;
+				grid-column: 11 / span 22;
+		}
+		:global(.cards-grid .card:nth-child(3)) {
+				grid-row: 19 / span 14;
+				grid-column: 1 / span 8;
+		}
+		:global(.cards-grid .card:nth-child(4)) {
+				grid-row: 17 / span 24;
+				grid-column: 11 / span 12;
+		}
+		:global(.cards-grid .card:nth-child(5)) {
+				grid-row: 18 / span 14;
+				grid-column: 25 / span 8;
+		}	
+		:global(.cards-grid .card:nth-child(6)) {
+				grid-row: 37 / span 24;
+				grid-column: 1 / span 20;
+		}
+		:global(.cards-grid .card:nth-child(7)) {
+				grid-row: 35 / span 14;
+				grid-column: 23 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(8)) {
+				grid-row: 53 / span 14;
+				grid-column: 1 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(9)) {
+				grid-row: 53 / span 24;
+				grid-column: 17 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(10)) {
+				grid-row: 79 / span 8;
+				grid-column: 3 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(11)) {
+				grid-row: 75 / span 8;
+				grid-column: 16 / span 8;
+		}
+	}
+
+	@media (min-width: 52rem) {
+		.cards {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		.cards-grid {
+			grid-auto-columns: 1.25rem;
+			grid-auto-rows: 1.25rem;
+			grid-template-columns: unset;
+			grid-template-rows: unset;
+			gap: unset;
+		}
+		:global(.cards-grid .card:nth-child(1)) {
+				grid-row: 2 / span 14;
+				grid-column: 1 / span 12;
+		}
+		:global(.cards-grid .card:nth-child(2)) {
+				grid-row: 1 / span 14;
+				grid-column: 15 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(3)) {
+				grid-row: 19 / span 14;
+				grid-column: 1 / span 8;
+		}
+		:global(.cards-grid .card:nth-child(4)) {
+				grid-row: 17 / span 24;
+				grid-column: 11 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(5)) {
+				grid-row: 18 / span 14;
+				grid-column: 27 / span 10;
+		}	
+		:global(.cards-grid .card:nth-child(6)) {
+				grid-row: 34 / span 24;
+				grid-column: 1 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(7)) {
+				grid-row: 35 / span 14;
+				grid-column: 27 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(8)) {
+				grid-row: 49 / span 14;
+				grid-column: 1 / span 20;
+		}
+		:global(.cards-grid .card:nth-child(9)) {
+				grid-row: 50 / span 24;
+				grid-column: 23 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(10)) {
+				grid-row: 70 / span 8;
+				grid-column: 3 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(11)) {
+				grid-row: 69 / span 8;
+				grid-column: 20 / span 14;
+		}
+	}
+
+	@media (min-width: 60rem) {
+		.cards {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		.cards-grid {
+			grid-auto-columns: 1.25rem;
+			grid-auto-rows: 1.25rem;
+			grid-template-columns: unset;
+			grid-template-rows: unset;
+			gap: unset;
+		}
+		:global(.cards-grid .card:nth-child(1)) {
+				grid-row: 2 / span 14;
+				grid-column: 1 / span 10;
+		}
+		:global(.cards-grid .card:nth-child(2)) {
+				grid-row: 1 / span 14;
+				grid-column: 13 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(3)) {
+				grid-row: 2 / span 14;
+				grid-column: 39 / span 6;
+		}
+		:global(.cards-grid .card:nth-child(4)) {
+				grid-row: 19 / span 24;
+				grid-column: 1 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(5)) {
+				grid-row: 18 / span 14;
+				grid-column: 27 / span 14;
+		}	
+		:global(.cards-grid .card:nth-child(6)) {
+				grid-row: 34 / span 24;
+				grid-column: 1 / span 24;
+		}
+		:global(.cards-grid .card:nth-child(7)) {
+				grid-row: 35 / span 14;
+				grid-column: 27 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(8)) {
+				grid-row: 49 / span 14;
+				grid-column: 1 / span 20;
+		}
+		:global(.cards-grid .card:nth-child(9)) {
+				grid-row: 50 / span 24;
+				grid-column: 23 / span 20;
+		}
+		:global(.cards-grid .card:nth-child(10)) {
+				grid-row: 70 / span 8;
+				grid-column: 3 / span 14;
+		}
+		:global(.cards-grid .card:nth-child(11)) {
+				grid-row: 68 / span 8;
+				grid-column: 23 / span 20;
 		}
 	}
 
