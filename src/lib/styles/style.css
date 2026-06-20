@@ -1,0 +1,46 @@
+@import './fonts.css';
+@import './reset.css';
+
+body {
+	background: #eee;
+	color: var(--color-dark);
+	font-family: 'Iosevka Charon Mono', monospace;
+	overflow-x: hidden;
+	/*
+	background-image: repeating-linear-gradient(to bottom, rgba(240, 240, 255, 1) 0px, rgba(240, 240, 255, 1) 1px, transparent 1px, transparent 9px), repeating-linear-gradient(to right, rgba(240, 240, 255, 1) 0px, rgba(240, 240, 255, 1) 1px, white 1px, white 9px);
+	background-position: -1px -1px, -1px -1px;
+	*/
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Iosevka Aile', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	 font-weight: 400;
+	 font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+p {
+	font-size: 18px;
+	margin-top: 8px;
+}
+sup {
+	color: #ff0033ff;
+}
